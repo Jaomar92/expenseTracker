@@ -1,0 +1,156 @@
+.expense__form__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.expense__form {
+  background: rgb(77, 75, 75);
+  border: 5px solid;
+  border-color: black;
+  border-radius: 25px;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  color: white;
+}
+
+.add__new {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add__new__button {
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+
+  z-index: 0;
+}
+
+.add__new__button > button {
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  width: 50%;
+  border-radius: 25px;
+  border: 3px solid white;
+  background-color: rgb(6, 131, 248);
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.add__new__button > button:hover {
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  width: 50%;
+  border-radius: 25px;
+  border: 3px solid white;
+  background-color: rgb(1, 47, 90);
+  color: white;
+  font-weight: 600;
+}
+
+.form__control {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.container > input {
+  width: 100%;
+  height: 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+}
+.container > input[type="text"]:focus {
+  border: 3px #555;
+}
+
+.container {
+  width: 90%;
+}
+
+.form__label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.form__bottom {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 35px;
+}
+
+.form__bottom > input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
+
+  font-size: 20px;
+}
+
+.date__form {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 10px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.date__stuff > label {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.date__stuff > input {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
+}
+
+.submit__cancel {
+  width: 140px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submit__cancel > button {
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  width: 40%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit__cancel > button:hover {
+  background-color: black;
+  color: white;
+  border: 3px solid;
+  border-color: white;
+  border-radius: 5px;
+}

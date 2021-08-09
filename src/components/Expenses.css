@@ -1,0 +1,16 @@
+.expenses__container {
+  width: 100%;
+}
+.expenses__items {
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  padding-bottom: 15px;
+}
+
+.no__props {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  font-weight: 500;
+  margin-top: 20px;
+}
